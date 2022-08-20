@@ -1,1 +1,8 @@
-<p>heroes-list works!</p>
+<div class="title">My Heroes</div>
+
+<div class="hero-list">
+  <div *ngFor="let hero of heroes" class="hero">
+    <span class="hero-number">{{ hero.id }}</span>
+    <span class="hero-name">{{ hero.name }}</span>
+  </div>
+</div>

@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
 
   heroes = [
-    { id: 0, name: 'Narco'},
-    { id: 1, name: 'Bombasto'},
-    { id: 2, name: 'Celeritas'},
-    { id: 3, name: 'Magneta'},
+    { id: 11, name: 'Narco'},
+    { id: 12, name: 'Bombasto'},
+    { id: 13, name: 'Celeritas'},
+    { id: 14, name: 'Magneta'},
   ]
 
   constructor() { }
